@@ -1,0 +1,32 @@
+.hero {
+    background-color: var(--background-dark-color);
+    display: flex; 
+    height: 600px;
+    max-width: 1600px; 
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+         url(../images/heroimg.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+}
+
+
+
+
+.hero__container {
+    
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+ .hero__overlay {
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+     

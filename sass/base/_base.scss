@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color:var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+
+
+@media (min-width: 800px){
+    body {background-color: red;}
+}
+
+
