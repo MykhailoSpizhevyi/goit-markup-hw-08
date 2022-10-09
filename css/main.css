@@ -113,17 +113,6 @@ ul {
   color: var(--logo-color);
 }
 
-.hero__title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-transform: uppercase;
-  color: var(--primary-white-color);
-  padding-top: 200px;
-  padding-bottom: 30px;
-  width: 700px;
-}
-
 .feature__title {
   display: none;
   font-weight: 700;
@@ -168,40 +157,6 @@ ul {
 .hero__button:hover, .hero__button:focus {
   color: var(--primary-white-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.footer__btn-mail {
-  position: relative;
-  width: 200px;
-  height: 50px;
-  background-color: var(--logo-color);
-  transition: 250ms var(--animation-timing);
-  border: 1px solid var(--logo-color);
-  border-radius: 4px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88px;
-  letter-spacing: 0.06em;
-  font-family: inherit;
-  color: var(--primary-white-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  transition: 250ms var(--animation-timing);
-}
-.footer__btn-mail:hover {
-  outline: 1px solid var(--logo-color);
-}
-
-.footer__btn-logo {
-  position: absolute;
-  top: 50%;
-  right: 28px;
-  transform: translateY(-50%);
-  fill: var(--primary-white-color);
-}
-
-.footer__btn-subscribe {
-  padding-right: 36px;
 }
 
 .modal__close-btn {
@@ -507,30 +462,74 @@ ul {
     bottom: -19px;
   }
 }
-.hero {
-  background-color: var(--background-dark-color);
-  display: flex;
-  height: 600px;
-  max-width: 1600px;
-  margin-right: auto;
-  margin-left: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroimg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+@media screen and (min-width: 480px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile.jpg);
+    height: 400px;
+    max-width: 480px;
+  }
+  .hero__title {
+    padding-top: 118px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+  }
+  .hero__button {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
-.hero__container {
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile.jpg);
+    height: 400px;
+    max-width: 768px;
+  }
+  .hero__title {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
-.hero__overlay {
-  margin-left: auto;
-  margin-right: auto;
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-color: var(--background-dark-color);
+    display: flex;
+    height: 600px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroimg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+    padding-top: 200px;
+    padding-bottom: 30px;
+    width: 700px;
+  }
+  .hero__container {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .hero__overlay {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
 .feature__container {
   display: flex;
   width: 1170px;
@@ -915,8 +914,40 @@ ul {
   transition: opacity 500ms linear;
 }
 
+@media screen and (min-width: 480px) {
+  .modal {
+    width: 450px;
+  }
+  .modal__contact-input {
+    width: 404px;
+  }
+  .modal__form-message {
+    width: 416px;
+  }
+  .modal__contact {
+    width: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
+  .modal__contact-input {
+    width: 482px;
+  }
+  .modal__form-message {
+    width: 494px;
+  }
+  .modal__contact {
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .modal {
-  width: 528px;
   background-color: #FFFFFF;
   position: absolute;
   top: 50%;
@@ -939,7 +970,6 @@ ul {
 }
 
 .modal__contact-input {
-  width: 482px;
   height: 40px;
   padding-left: 42px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -972,7 +1002,6 @@ ul {
 }
 
 .modal__form-message {
-  width: 494px;
   height: 120px;
   padding: 12px 16px;
   margin-bottom: 20px;

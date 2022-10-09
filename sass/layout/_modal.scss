@@ -1,5 +1,34 @@
+@media screen and (min-width: 480px){
+    .modal {
+        width: 450px;
+    }
+    .modal__contact-input {
+        width: 404px;}
+    .modal__form-message {
+        width: 416px;}
+    .modal__contact {
+        width: 300px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;}
+}
+
+@media screen and (min-width: 1200px){
+    .modal {
+        width: 528px;}
+        .modal__contact-input {
+         width: 482px;}
+        .modal__form-message {
+        width: 494px;}
+        .modal__contact {
+        width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+                }
+}
+
+
 .modal {
-    width: 528px;
     background-color: #FFFFFF;
     position: absolute;
     top: 50%;
@@ -13,6 +42,7 @@
 
 
 .modal__contact {
+    
     text-align: center;
     margin-bottom: 16px;
     font-weight: 700;
@@ -23,7 +53,6 @@
 }
 
 .modal__contact-input {
-    width: 482px;
     height: 40px;
     padding-left: 42px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -60,7 +89,7 @@
 }
 
 .modal__form-message {
-    width: 494px;
+    // width: 494px;
     height: 120px;
     padding: 12px 16px;
     margin-bottom: 20px;
