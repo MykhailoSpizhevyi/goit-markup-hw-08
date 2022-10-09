@@ -358,6 +358,12 @@ ul {
     display: none;
   }
 }
+.header__container {
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid var(--border-header);
+}
+
 .header__menu {
   display: none;
 }
@@ -384,10 +390,12 @@ ul {
 
 .header__logo {
   margin: 0;
-  padding-left: 15px;
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    display: flex;
+  }
   .mobile-menu-btn {
     display: none;
   }
@@ -400,6 +408,103 @@ ul {
   }
   .header__menu-contact {
     display: block;
+  }
+  .header__container {
+    margin: 0;
+    padding-left: 15px;
+  }
+  .header__logo {
+    margin-right: 88px;
+  }
+  .header__item {
+    margin-right: 50px;
+  }
+  .header__item:last-child {
+    margin-right: 0;
+  }
+  .header__nav {
+    display: flex;
+  }
+  .header__link {
+    display: flex;
+    position: relative;
+    transition: 250ms var(--animation-timing);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-gray-text);
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .header__link:hover::after {
+    opacity: 1;
+  }
+  .header__link:hover, .header__link:focus {
+    color: var(--logo-color);
+    transition: 250ms var(--animation-timing);
+  }
+  .header__link .current {
+    color: var(--logo-color);
+  }
+  .current::after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 0;
+    bottom: -28px;
+    width: 100%;
+    height: 4px;
+    background-color: var(--logo-color);
+    transition: opacity 250ms var(--animation-timing);
+    border-radius: 2px;
+  }
+  .header__menu {
+    display: flex;
+    text-decoration: none;
+    padding-left: 0;
+    align-items: center;
+    margin-right: 96px;
+  }
+  .menu .link:hover,
+.menu .link:focus {
+    transition: 250ms var(--animation-timing);
+  }
+  .mail, .smartphone {
+    fill: currentColor;
+    padding-right: 10px;
+  }
+  .menu__item-phone {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .icon-mail {
+    display: inline-flex;
+    margin-right: 10px;
+  }
+  .icon-smartphone {
+    margin-right: 10px;
+  }
+  .header__item-contact {
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .header__item-contact:first-child {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__menu-contact {
+    display: flex;
+  }
+  .header__item-contact:first-child {
+    margin-right: 30px;
+  }
+  .current::after {
+    bottom: -19px;
   }
 }
 .hero {
