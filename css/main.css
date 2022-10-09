@@ -350,6 +350,9 @@ ul {
 @media screen and (min-width: 768px) {
   .header {
     display: flex;
+    width: 768px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .mobile-menu-btn {
     display: none;
@@ -452,6 +455,9 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
+  .header {
+    width: 1200px;
+  }
   .header__menu-contact {
     display: flex;
   }
