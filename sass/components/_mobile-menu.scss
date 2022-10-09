@@ -50,6 +50,10 @@
     line-height: 1.175;
     letter-spacing: 0.02em;
 
+    &:hover,
+    &:focus {
+        color: var(--logo-color);
+    }
 }
 
 .mobile-nav__menu {
@@ -104,6 +108,11 @@
     font-size: 24px;
     line-height: 1.16px;
     letter-spacing: 0.02em;
+
+    &:hover,
+    &:focus {
+        color: var(--logo-color);
+    }
 }
 
 .mobile-nav__social-link {
