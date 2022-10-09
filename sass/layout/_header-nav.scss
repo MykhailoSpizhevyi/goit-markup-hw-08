@@ -1,10 +1,16 @@
-.header__menu {
-    display: none;
+
+@media screen and (max-width: 768px) {
+    .header__menu {
+            display: none;
+        }
+    .header__menu-contact {
+            display: none;
+        }
 }
 
-.header__menu-contact {
-    display: none;
-}
+
+
+
 
 .mobile-menu-btn {
     background-color: transparent;
@@ -28,6 +34,29 @@
     padding-left: 15px;
 
 }
+
+@media screen and (min-width: 768px) {
+    .mobile-menu-btn {
+        display:none;
+    }
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+    }
+    .header__menu {
+        display: flex;
+    }
+
+    .header__menu-contact {
+        display: block;
+    }
+}
+
+
+
+
+
 
 
 // .header__item {
