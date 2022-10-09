@@ -640,6 +640,11 @@ ul {
   color: var(--primary-gray-text);
 }
 
+@media screen and (max-width: 1199px) {
+  .work {
+    display: none;
+  }
+}
 .work__container {
   margin-top: 94px;
   width: 1170px;
