@@ -1,13 +1,18 @@
 
+.feature__title-head {
+    display: none;
+} 
+
 
 .feature__title {
-    display: none;
+    // display: none;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primary-text-color);
     padding-bottom: 10px;
+    
 }
 
 .work__title,
