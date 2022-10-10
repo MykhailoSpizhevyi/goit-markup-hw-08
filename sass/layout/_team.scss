@@ -10,19 +10,22 @@
         margin-bottom: 30px;
         width: 100%;
         height: auto;
-        background-image: url('../images/ihor450.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
-        &:nth-child(2){
-            background-image: url('../images/olha450.jpg');
-        }
-        &:nth-child(3) {
-            background-image: url('../images/mykola450.jpg');
-        }
-        &:nth-child(4) {
-            background-image: url('../images/mykhailo450.jpg');
-        }
+        // background-image: url('../images/ihor450.jpg');
+        // background-size: contain;
+        // background-repeat: no-repeat;
+        // &:nth-child(2){
+        //     background-image: url('../images/olha450.jpg');
+        // }
+        // &:nth-child(3) {
+        //     background-image: url('../images/mykola450.jpg');
+        // }
+        // &:nth-child(4) {
+        //     background-image: url('../images/mykhailo450.jpg');
+        // }
     
+    }
+    .team__img {
+    width: 100%;
     }
     .team__title {
         margin-top: 60px;
@@ -34,7 +37,7 @@
         
     }
     .team__block {
-        margin-top: 490px;
+        margin-top: 30px;
         margin-bottom: 16px;
     }
 }
@@ -50,7 +53,6 @@
         width: 768px;
     }
     .team__block {
-        margin-top: 314px;
         margin-bottom: 16px;
     }
     .team__item{
