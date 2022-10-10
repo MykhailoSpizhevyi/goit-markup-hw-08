@@ -58,6 +58,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 @media screen and (min-width: 1200px){
     .hero {
+        width: 1600px;
         background-color: var(--background-dark-color);
         display: flex; 
         height: 600px;

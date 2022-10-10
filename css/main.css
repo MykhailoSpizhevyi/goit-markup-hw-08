@@ -509,7 +509,11 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .header {
-    width: 1200px;
+    width: 1600px;
+  }
+  .header__container {
+    margin-left: auto;
+    margin-right: auto;
   }
   .header__menu-contact {
     display: flex;
@@ -568,6 +572,7 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .hero {
+    width: 1600px;
     background-color: var(--background-dark-color);
     display: flex;
     height: 600px;
