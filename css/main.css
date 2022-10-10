@@ -477,11 +477,10 @@ ul {
     bottom: -19px;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile.jpg);
     height: 400px;
-    max-width: 480px;
   }
   .hero__title {
     padding-top: 118px;
@@ -507,7 +506,6 @@ ul {
     max-width: 768px;
   }
   .hero__title {
-    width: 400px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -691,7 +689,7 @@ ul {
   text-transform: uppercase;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   .team__menu {
     display: block;
   }
@@ -701,8 +699,8 @@ ul {
   .team__item {
     margin-right: 0;
     margin-bottom: 30px;
-    width: 450px;
-    height: 620px;
+    width: 100%;
+    height: auto;
     background-image: url("../images/ihor450.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -721,13 +719,13 @@ ul {
     margin-bottom: 30px;
   }
 }
-@media screen and (min-width: 480px) and (max-width: 1199px) {
+@media screen and (min-width: 280px) and (max-width: 767px) and (max-width: 1199px) {
   .team__title {
     font-size: 28px;
     line-height: 1.17;
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
   .team__block {
     margin-top: 490px;
     margin-bottom: 16px;

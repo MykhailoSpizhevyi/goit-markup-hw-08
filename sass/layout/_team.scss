@@ -1,4 +1,4 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) and (max-width: 767px) {
     .team__menu {
         display: block}
     
@@ -8,8 +8,8 @@
     .team__item {
         margin-right: 0;
         margin-bottom: 30px;
-        width: 450px;
-        height: 620px;
+        width: 100%;
+        height: auto;
         background-image: url('../images/ihor450.jpg');
         background-size: contain;
         background-repeat: no-repeat;
