@@ -1,5 +1,9 @@
 
-
+@media screen and (min-width: 280px) and (max-width: 767px){
+    .header__logo {
+        padding-left: 15px;
+    }
+}
 .header__menu {
     display: none;
     }
