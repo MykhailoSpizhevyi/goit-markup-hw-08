@@ -50,7 +50,7 @@
         width: 768px;
     }
     .team__block {
-        margin-top: 384px;
+        margin-top: 314px;
         margin-bottom: 16px;
     }
     .team__item{
@@ -63,9 +63,10 @@
     
         &:nth-child(2n) {
             margin-left: 15px;
-        }}
+        }
     
     }
+}
 }
 
 
@@ -96,6 +97,7 @@
     background-color: var(--primary-button-background);
     padding-bottom: 94px;
 }
+
 
 .team__container {
     margin-left: auto;
