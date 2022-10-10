@@ -1,14 +1,14 @@
 
-@media screen and (min-width: 320px)  {
+@media screen and (min-width: 280px)  {
     
     .clients__list{
         flex-wrap: wrap;
-        width: 480px;
+        // width: 480px;
     }
     
     @media screen and (max-width: 767px){
         .clients__item {
-            width: 210px;
+            // width: 210px;
             
         }
     
@@ -30,7 +30,7 @@
     
         @media screen and (max-width: 1199px) {
             .clients__item {
-                width: 226px;
+                // width: 226px;
 
             }
     
@@ -51,7 +51,8 @@
         .clients__link {
         padding: 15px 32px;}
         .clients__item {
-        width: 170px;}
+        // width: 170px;
+    }
 }
                                     
 
