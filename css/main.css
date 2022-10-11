@@ -603,6 +603,9 @@ ul {
 .hero {
   margin-left: auto;
   margin-right: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 @media screen and (min-width: 280px) {
@@ -640,17 +643,20 @@ ul {
   .feature__item {
     text-align: left;
     width: 354px;
-    padding-left: 12px;
-    padding-right: 12px;
+  }
+  .feature__item:nth-child(2n+1) {
+    margin-right: 30px;
   }
   .feature__menu {
     display: flex;
     width: 768px;
     flex-wrap: wrap;
-    padding-left: 30px;
   }
   .feature__title {
     text-align: left;
+  }
+  .feature__thumb {
+    gap: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1293,6 +1299,10 @@ ul {
 }
 
 .modal__policy-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
   color: var(--logo-color);
 }
 
@@ -1349,4 +1359,10 @@ ul {
     width: 450px;
     padding-left: 20px;
   }
+}
+.modal__form-terms {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }/*# sourceMappingURL=main.css.map */
