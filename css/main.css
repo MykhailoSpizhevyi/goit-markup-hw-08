@@ -1191,20 +1191,6 @@ ul {
   transition: opacity 500ms linear;
 }
 
-@media screen and (min-width: 280px) {
-  .modal__contact-input {
-    width: 100%;
-  }
-  .modal__form-message {
-    width: 100%;
-  }
-  .modal__contact {
-    width: 300px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
 .modal {
   background-color: #FFFFFF;
   position: absolute;
@@ -1334,4 +1320,33 @@ ul {
   display: flex;
   align-items: center;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 280px) {
+  .modal {
+    width: 450px;
+    height: 609px;
+  }
+  .modal__contact-input {
+    width: 100%;
+  }
+  .modal__form-message {
+    width: 100%;
+  }
+  .modal__contact {
+    width: 300px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+  .modal__contact {
+    width: 450px;
+    padding-left: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */
