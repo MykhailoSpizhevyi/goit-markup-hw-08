@@ -1349,6 +1349,12 @@ ul {
     margin-left: auto;
     margin-right: auto;
   }
+  .modal__form-terms {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
 }
 @media screen and (min-width: 1200px) {
   .modal {
@@ -1359,10 +1365,9 @@ ul {
     width: 450px;
     padding-left: 20px;
   }
-}
+  .modal__policy-text,
 .modal__form-terms {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
+    font-size: 12px;
+    line-height: 1.71;
+  }
 }/*# sourceMappingURL=main.css.map */
