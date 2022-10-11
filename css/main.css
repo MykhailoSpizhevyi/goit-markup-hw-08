@@ -480,7 +480,7 @@ ul {
   }
   .mail, .smartphone {
     fill: currentColor;
-    padding-right: 10px;
+    margin-right: 10px;
   }
   .menu__item-phone {
     display: inline-flex;
@@ -573,7 +573,7 @@ ul {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
   }
   .hero__title {
     font-weight: 900;

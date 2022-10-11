@@ -25,7 +25,6 @@
 .header__container {
     display: flex;
     align-items: center;
-    
     justify-content: space-between;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -139,7 +138,7 @@
 
 .mail, .smartphone {
     fill: currentColor;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .menu__item-phone {
@@ -190,7 +189,6 @@
     .current::after {
         bottom: -19px;
     }
-    
 }
 
 

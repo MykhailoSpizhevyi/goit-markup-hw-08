@@ -71,7 +71,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
              url(../images/heroimg.jpg);
         background-repeat: no-repeat;
         background-position:  center;
-        background-size: cover;
+        background-size: contain;
     }
     .hero__title {
         font-weight: 900;
