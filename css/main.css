@@ -663,8 +663,6 @@ ul {
   .feature__container {
     display: flex;
     width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
     text-align: center;
     padding-top: 94px;
     margin-left: auto;
@@ -675,15 +673,16 @@ ul {
     padding: 0;
     justify-content: flex-start;
     width: 100%;
-    padding-left: 45px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .feature__item {
     display: inline-block;
     text-align: left;
     width: 270px;
     text-align: left;
-    padding-left: 12px;
-    padding-right: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 }
 .feature__item:last-child {
