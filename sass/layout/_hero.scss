@@ -3,20 +3,22 @@
         background-image: 
         linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), url(../images/hero-mobile.jpg);
-        height: 400px;
         max-width: 480px;
+        padding-bottom: 142px;
+        
     }
     .hero__title {
         padding-top: 118px;
         text-align: center;
         font-weight: 900;
         font-size: 26px;
-        // line-height: 1.36px;
+        
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
         color: #FFFFFF;
-        margin-bottom: 30px;
+        
+        padding-bottom: 30px;
     }
 
     .hero__button {
@@ -38,8 +40,9 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
     .hero {background-image: 
         linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)), url(../images/herotablet.jpg);
-        height: 400px;
+        // height: 400px;
         max-width: 768px;
+        padding-bottom: 142px;
     }
     .hero__title{
         width: 400px;
@@ -58,13 +61,10 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 @media screen and (min-width: 1200px){
     .hero {
-        width: 1600px;
+        max-width: 1600px;
+        padding-bottom: 200px;
         background-color: var(--background-dark-color);
-        display: flex; 
-        height: 600px;
-        max-width: 1600px; 
-        margin-right: auto;
-        margin-left: auto;
+        
         background-image: linear-gradient(
             rgba(47, 48, 58, 0.4),
             rgba(47, 48, 58, 0.4)),
@@ -81,7 +81,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
         
         color: var(--primary-white-color);
         padding-top: 200px;
-        padding-bottom: 30px;
+        // padding-bottom: 30px;
         width: 700px;
     }
     

@@ -155,7 +155,6 @@ ul {
   line-height: 1.88;
   color: var(--primary-white-color);
   background-color: var(--logo-color);
-  margin-bottom: 200px;
   border-radius: 4px;
   border: none;
   padding: 10px 32px;
@@ -403,7 +402,6 @@ ul {
 @media screen and (min-width: 768px) {
   .header {
     display: flex;
-    width: 768px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -421,8 +419,8 @@ ul {
     display: block;
   }
   .header__container {
-    margin: 0;
     padding-left: 15px;
+    padding-right: 15px;
   }
   .header__logo {
     margin-right: 88px;
@@ -508,9 +506,6 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
-  .header {
-    width: 1600px;
-  }
   .header__container {
     margin-left: auto;
     margin-right: auto;
@@ -528,8 +523,8 @@ ul {
 @media screen and (min-width: 320px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-mobile.jpg);
-    height: 400px;
     max-width: 480px;
+    padding-bottom: 142px;
   }
   .hero__title {
     padding-top: 118px;
@@ -540,7 +535,7 @@ ul {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
   .hero__button {
     display: flex;
@@ -556,8 +551,8 @@ ul {
 @media screen and (min-width: 768px) {
   .hero {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/herotablet.jpg);
-    height: 400px;
     max-width: 768px;
+    padding-bottom: 142px;
   }
   .hero__title {
     width: 400px;
@@ -572,13 +567,9 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .hero {
-    width: 1600px;
-    background-color: var(--background-dark-color);
-    display: flex;
-    height: 600px;
     max-width: 1600px;
-    margin-right: auto;
-    margin-left: auto;
+    padding-bottom: 200px;
+    background-color: var(--background-dark-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/heroimg.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -591,7 +582,6 @@ ul {
     text-transform: uppercase;
     color: var(--primary-white-color);
     padding-top: 200px;
-    padding-bottom: 30px;
     width: 700px;
   }
   .hero__container {
@@ -609,17 +599,18 @@ ul {
     background-image: url("../images/herodesk@2x.jpg");
   }
 }
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 280px) {
   .feature__container {
     display: block;
-    margin-top: 60px;
   }
   .feature__menu {
-    width: 480px;
     display: block;
     padding-left: 0;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 60px;
   }
   .feature__title {
     text-align: center;
@@ -631,13 +622,12 @@ ul {
     margin-bottom: 60;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .feature__container {
     display: flex;
     flex-wrap: wrap;
     width: 768px;
     text-align: center;
-    margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -651,6 +641,7 @@ ul {
     display: flex;
     width: 768px;
     flex-wrap: wrap;
+    padding-left: 30px;
   }
   .feature__title {
     text-align: left;
@@ -663,7 +654,7 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     text-align: center;
-    margin-top: 94px;
+    padding-top: 94px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -672,11 +663,15 @@ ul {
     padding: 0;
     justify-content: flex-start;
     width: 100%;
+    padding-left: 45px;
   }
   .feature__item {
     display: inline-block;
     text-align: left;
     width: 270px;
+    text-align: left;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 }
 .feature__item:last-child {
@@ -978,13 +973,9 @@ ul {
   fill: var(--logo-color);
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .footer {
-    width: 480px;
     display: block;
-  }
-  .footer__container {
-    width: 480px;
   }
   .footer__container-contact,
 .footer__logo-icon,
@@ -995,8 +986,7 @@ ul {
     justify-content: center;
   }
   .footer__form-input {
-    margin-left: 15px;
-    width: 89%;
+    width: 450px;
     margin-bottom: 20px;
   }
   .footer__btn {
@@ -1008,44 +998,37 @@ ul {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 768px) {
-  .footer {
-    width: 768px;
-  }
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__container {
-    display: flex;
     width: 768px;
+    display: flex;
     flex-wrap: wrap;
   }
   .footer__container-contact {
-    margin-left: 76px;
     margin-right: 165px;
-  }
-  .footer__form-input {
-    width: 450px;
+    margin-left: 76px;
   }
   .footer__contact-form {
-    margin-left: 136px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
-  .footer {
-    width: 1600px;
-  }
   .footer__container {
-    width: 1200px;
+    display: flex;
     flex-wrap: nowrap;
+    margin-left: auto;
+    margin-right: auto;
   }
   .footer__contact-item {
     display: block;
   }
   .footer__container-contact {
     display: block;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-right: 70px;
   }
   .footer__social {
-    margin-left: 70px;
+    margin-right: 93px;
   }
   .footer__logo-icon,
 .footer__social-text,
@@ -1056,9 +1039,6 @@ ul {
     margin: 0;
     width: 358px;
   }
-  .footer__contact-form {
-    margin-left: 93px;
-  }
   .footer__form-mail {
     display: flex;
   }
@@ -1068,6 +1048,7 @@ ul {
 }
 .footer {
   background-color: var(--background-dark-color);
+  display: flex;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1088,7 +1069,6 @@ ul {
 
 .footer__form-input {
   height: 46px;
-  padding-left: 16px;
   outline: none;
   border-radius: 4px;
   margin-right: 12px;
@@ -1123,7 +1103,6 @@ ul {
 }
 
 .footer__contact {
-  /* outline: 2px solid salmon; */
   margin-top: 24px;
   display: inline-block;
   padding-left: 0;
