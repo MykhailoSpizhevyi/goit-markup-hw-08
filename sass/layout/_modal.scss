@@ -1,11 +1,11 @@
-@media screen and (min-width: 480px){
+@media screen and (min-width: 280px){
     .modal {
-        width: 450px;
+        // width: 450px;
     }
     .modal__contact-input {
-        width: 404px;}
+        width: 100%;}
     .modal__form-message {
-        width: 416px;}
+        width: 100%;}
     .modal__contact {
         width: 300px;
         display: flex;
@@ -13,19 +13,7 @@
         margin-right: auto;}
 }
 
-@media screen and (min-width: 1200px){
-    .modal {
-        width: 528px;}
-        .modal__contact-input {
-         width: 482px;}
-        .modal__form-message {
-        width: 494px;}
-        .modal__contact {
-        width: 420px;
-        margin-left: auto;
-        margin-right: auto;
-                }
-}
+
 
 
 .modal {

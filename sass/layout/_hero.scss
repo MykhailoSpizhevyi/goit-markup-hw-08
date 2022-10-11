@@ -71,7 +71,8 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
              url(../images/heroimg.jpg);
         background-repeat: no-repeat;
         background-position:  center;
-        background-size: contain;
+        background-size: cover;
+        
     }
     .hero__title {
         font-weight: 900;
@@ -107,6 +108,10 @@ screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero {
         background-image: url('../images/herodesk@2x.jpg');
     }
+}
+.hero {
+    margin-left: auto;
+    margin-right: auto;
 }
     
 
