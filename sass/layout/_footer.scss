@@ -5,15 +5,7 @@
         
     }
     
-    .footer__container-contact {
-        
-    }
-    .footer__logo-icon {
-        // margin-left: 163px;
-    }
-    .footer__contact-map {
-        // margin-left: 124px;
-    }
+    
     .footer__container-contact,
     .footer__logo-icon,
     .footer__contact-item,
@@ -49,9 +41,7 @@
         margin-right: 165px;
         margin-left: 76px;
     }
-    .footer__form-input{
-        
-    }
+    
         .footer__contact-form {
             margin-left: auto;
             margin-right: auto;
@@ -61,9 +51,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .footer {
-        
-    }
+    
     .footer__container {
         display: flex;
     flex-wrap: nowrap;
